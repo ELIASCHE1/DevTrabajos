@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Ingresa a tu cuenta de DOTA 2</title>
+</head>
+<body>
+
+    usuario:
+    <input type="text" id="usuario">
+    contraseña:
+    <input type="password" id="clave">
+    ingresar:
+    <input type="submit" value="ingresar a  tu cuenta" onclick="ingresar()">
+    
+    <script>
+        function ingresar(){
+
+            var usuario = document.getElementById("usuario");
+            var password = document.getElementById("clave")
+
+            if(usuario.value=="eliasche1" && password.value=="12345678"){
+            alert("bienbenido al mundo de DOTA 2");
+            //windows.open("index.html","formulario Administrador","width=600px,height=800px")
+            window.location="dota.html"
+        }else{
+            alert("error de usuario")
+        }
+
+        }
+    </script>
+<img src="Dota_2_logo.jpg" alt="">
+<br>
+<hr>
+<div class="card-group">
+    <div class="card">
+      <img src="dota-2-heroes.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">TODOS LOS HEROES DE DOTA 2</h5>
+        <p class="card-text">A qui puedes apreciar todos los heroes con que podras jugar y divertirte tu y tus amigos.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="TI7-Dota-2.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">THE INTERNACIONAL 2017</h5>
+        <p class="card-text">Uno de los eventos de los players mas grandes y esperados al año.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="dota-2-gameplay-2-937d.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">MUESTRA DE COMO ES EL JUEGO</h5>
+        <p class="card-text">Contenido del mapa del juego.</p>
+        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

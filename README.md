@@ -1,2 +1,0 @@
-# DevTrabajos
-trabajos del curso
